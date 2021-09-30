@@ -8,5 +8,5 @@ export const classNames = (...classes: any[]): string => {
 };
 
 export const textClassName =
-	'shadow-sm border-pink-100 focus:ring-pink-200 focus:border-pink-200 block w-full sm:text-sm rounded-md disabled:bg-gray-200 disabled:border-pink-400 transition duration-200';
+	'shadow-sm border-pink-100 focus:ring-pink-200 focus:border-pink-200 block w-full sm:text-sm rounded-md disabled:bg-gray-200 disabled:text-gray-400 transition duration-200';
 export const labelClassName = 'block text-sm mb-1 font-semibold text-gray-700';

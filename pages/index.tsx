@@ -1,6 +1,5 @@
 import { Field, Form, Formik } from 'formik';
 import { forEach, get, map, set, startCase } from 'lodash';
-import React from 'react';
 
 import { Layout } from '../components/default/Layout';
 import { assembleAR } from '../util/assemble';
@@ -9,6 +8,8 @@ import type { NextPage } from 'next';
 import { headlessFunctions } from '../util/functions';
 import { HeaderLabel } from '../components/form/header';
 import { classNames, labelClassName, textClassName } from '../util/classnames';
+import React from 'react';
+import { RenderedWithFunAsComp } from '../components/RenderedWithFunAsComp';
 
 const constraints = 'py-4 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8';
 const boxStyle = 'bg-gray-100 p-4 rounded-lg shadow-sm border border-gray-400';
@@ -96,6 +97,18 @@ const Home: NextPage = () => {
 												type="text"
 												name="content"
 												required
+											/>
+											<label
+												htmlFor="content"
+												className={classNames(
+													labelClassName,
+													'mt-2'
+												)}
+											>
+												baka
+											</label>
+											<RenderedWithFunAsComp
+												value={values.content}
 											/>
 										</div>
 									</div>

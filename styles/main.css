@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 html {
-	@apply bg-pink-50 text-gray-900 overflow-hidden caret-pink-600 selection:bg-pink-500 selection:text-white selection:rounded;
+	@apply bg-pink-50 text-gray-900 overflow-x-hidden caret-pink-600 selection:bg-pink-500 selection:text-white selection:rounded;
 }
