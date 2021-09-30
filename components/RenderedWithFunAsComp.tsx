@@ -95,7 +95,7 @@ export const RenderedWithFunAsComp: FC<{ value: string }> = (props) => {
 						style={{ borderColor: '#FFFFFF' }}
 						className="border-0 border-l-4 p-2"
 					>
-						<p className="break-words whitespace-pre-wrap inline">
+						<p className="break-words whitespace-pre-wrap">
 							{output}
 						</p>
 					</div>
